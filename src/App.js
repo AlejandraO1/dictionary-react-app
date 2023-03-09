@@ -9,7 +9,17 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer> Coded by Alejandra Ortega</footer>
+        <footer>
+          {" "}
+          Coded by <strong>Alejandra Ortega</strong> and is{" "}
+          <a
+            href="https://github.com/AlejandraO1/dictionary-react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced
+          </a>
+        </footer>
       </div>
     </div>
   );
