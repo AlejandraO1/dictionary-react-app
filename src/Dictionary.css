@@ -1,3 +1,64 @@
+:root {
+  --primary-color: #dbd8e3;
+  --secondary-color: #5c5470;
+  --tertiary-color: #352f44;
+  --accent-color: #2a2438;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
 .Dictionary {
   margin: 30px 0;
+  padding: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
+.Dictionary h1,
+.Dictionary form {
+  text-align: center;
+}
+
+.Dictionary h1,
+.Dictionary h2 {
+  color: var(--accent-color);
+  margin: 15px 0;
+}
+
+.Dictionary h1 {
+  font-size: 50px;
+}
+
+.Dictionary h2 {
+  font-size: 40px;
+}
+
+.Dictionary h3 {
+  color: var(--secondary-color);
+}
+
+.Dictionary input {
+  width: 50%;
+}
+
+.Dictionary p {
+  color: var(--tertiary-color);
+  font-size: 18px;
+}
+
+.Dictionary .Results {
+  border: 1px solid var(--accent-color);
+  margin: 15px 0;
+  padding: 10px;
 }
