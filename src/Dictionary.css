@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #dbd8e3;
-  --secondary-color: #5c5470;
-  --tertiary-color: #352f44;
-  --accent-color: #2a2438;
+  --primary-color: #efecec;
+  --secondary-color: #dbd8e3;
+  --tertiary-color: #5c5757;
+  --accent-color: #363434;
 }
 
 h1,
@@ -16,7 +16,7 @@ h6 {
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .Dictionary {
@@ -45,7 +45,7 @@ body {
 }
 
 .Dictionary h3 {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 .Dictionary input {
@@ -57,8 +57,10 @@ body {
   font-size: 18px;
 }
 
-.Dictionary .Results {
-  border: 1px solid var(--accent-color);
+.Dictionary section {
   margin: 15px 0;
   padding: 10px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  box-shadow: 0 10px 10px #5c5470;
 }
