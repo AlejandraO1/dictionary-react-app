@@ -8,7 +8,6 @@ export default function Meaning(props) {
       <span>
         <strong>Definition: {props.meaning.definition}</strong> <br />
         <em>{props.meaning.example}</em>
-        <br />
       </span>
       <Synonyms synonyms={props.meaning.synonyms} />
     </div>
