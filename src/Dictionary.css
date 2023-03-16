@@ -45,14 +45,15 @@ body {
 }
 
 .Dictionary h3 {
-  color: var(--tertiary-color);
+  color: var(--accent-color);
+  font-weight: 400;
 }
 
 .Dictionary input {
   width: 50%;
 }
 
-.Dictionary p {
+.Dictionary span {
   color: var(--tertiary-color);
   font-size: 18px;
 }
